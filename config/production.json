@@ -1,0 +1,8 @@
+{
+    "mongoURI": "mongodb+srv://tianyic:wobuzhidaomima@tianyic.icmlx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "spotifyClientId": "2bcd4e74e56448f9b1ad76e6c58a01de",
+    "spotifySecrete": "e89bfc40ff4a4503a0d442bf39fbb2de",
+    "scope": "user-read-private user-read-email"
+
+}
