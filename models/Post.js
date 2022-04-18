@@ -13,6 +13,18 @@ const PostSchema = new Schema({
         type: String,
         required: true
     },
+    description: {
+        type: String,
+        required: true
+    },
+    location: {
+        type: String,
+        required: true
+    },
+    serviceType: {
+        type: String,
+        required: true
+    },
     name: {
         type: String
     },

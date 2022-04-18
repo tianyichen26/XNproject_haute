@@ -29,6 +29,10 @@ router.post(
 
             const newPost = new Post({
                 text: req.body.text,
+                description: req.body.description,
+
+                location: req.body.location,
+                serviceType: req.body.serviceType,
                 name: user.name,
                 avatar: user.avatar,
                 user: req.user.id
